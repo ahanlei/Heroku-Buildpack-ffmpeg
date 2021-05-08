@@ -19,3 +19,6 @@ heroku buildpacks:add --index 1 https://github.com/jonathanong/heroku-buildpack-
 Note: This buildpack should be added before the main language buildpack (by using `--index 1`),
 since the application process types are calculated from the last buildpack in the list if no
 `Procfile` is specified.
+
+**Thanks To:**
+- (johnvansickle.com)[static build](http://johnvansickle.com/ffmpeg/).
